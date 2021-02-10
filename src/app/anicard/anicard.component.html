@@ -1,0 +1,13 @@
+<mat-card>
+  <mat-card-content>
+    <video width="306" height="220" controls style="margin-top: -30px">
+      <source src="assets/clips/{{card.fileName}}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </mat-card-content>
+
+  <mat-card-header>
+    <mat-card-title>{{card.title}}</mat-card-title>
+    <mat-card-subtitle>{{card.description}}</mat-card-subtitle>
+  </mat-card-header>
+</mat-card>

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+html, body {
+  font-family: 'Rubik', serif;
+  padding: 0;
+  margin: 0;
+  background-color: #eee;
+}
+
+mat-card-header {
+  padding: 10px;
+  height: 150px;
+}
+mat-card, mat-card-content {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.videoClass {
+  margin-top: -40px;
+  padding-top: -40px;
+}
