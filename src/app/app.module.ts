@@ -8,6 +8,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { AnicardComponent } from './anicard/anicard.component';
 import {MatIconModule} from "@angular/material/icon";
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {MatIconModule} from "@angular/material/icon";
     MatGridListModule,
     MatCardModule,
     MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

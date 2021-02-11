@@ -11,9 +11,12 @@
     <mat-card-subtitle>{{card.description}}</mat-card-subtitle>
   </mat-card-header>
 
-  <mat-card-actions>
-    <button mat-icon-button color="primary">
-      <mat-icon>download</mat-icon>
-    </button>
+  <mat-card-actions align="center">
+    <a href="assets/clips/{{card.fileName}}" [download]="card.fileName">
+      <button mat-button color="primary">
+        <mat-icon>download</mat-icon>
+        להורדה
+      </button>
+    </a>
   </mat-card-actions>
 </mat-card>
