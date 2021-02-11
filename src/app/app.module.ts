@@ -7,6 +7,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { AnicardComponent } from './anicard/anicard.component';
+import {MatIconModule} from "@angular/material/icon";
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { AnicardComponent } from './anicard/anicard.component';
     MatToolbarModule,
     MatGridListModule,
     MatCardModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
